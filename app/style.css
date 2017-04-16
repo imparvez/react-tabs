@@ -1,0 +1,17 @@
+#root {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tab.active {
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #fff;
+}
+
+.tab.dd {
+    border-bottom: 1px solid #ccc;
+}
