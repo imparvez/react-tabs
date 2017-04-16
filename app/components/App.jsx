@@ -1,4 +1,18 @@
 import React from 'react';
+import Tab from './tab.jsx';
+
+const tabData = [
+	{
+		title: 'HELLO ONE',
+		content: 'CONTENT ONE'
+	},{
+		title: 'HELLO TWO',
+		content: 'CONTENT TWO'
+	},{
+		title: 'HELLO THREE',
+		content: 'CONTENT THREE'
+	},
+]
 
 export default class App extends React.Component {
 	constructor(props){
@@ -41,6 +55,7 @@ export default class App extends React.Component {
 		            )
 		          }, this)}
 		        </div>
+		        <Tab data={tabData}/>
 		    </div>
 		)
 	}
